@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+overflow: hidden;
+  background-color: #ffffff;
+}
+
+h1.title {
+  color: #be7575;
+  text-align: left;
+  font-family: times new roman, times, serif;
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 35px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+p.light {
+  color: #be7575;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serifa;
+  font-weight: lighter;
+  font-size: 15px;
+  padding-left: 35px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+.button {
+  background-color: #ffffff;
+  border: 1px solid #be7575;
+  color: #be7575;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-family: Helvetica, Arial, sans-serifa;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 2px;
+  position: absolute;
+  left: 100px;
+  top: 120%;
+  transform: translate(-50%, -50%);
+}
+.textbox {
+  background-color: #f2eee53;
+  width: 100vw;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+}
+.image{
+  display: block;
+  margin: -3.5vw 35vw;
+}
+</style>
+</head>
+<body>
+<div class="image"><img src="breakfast.png" alt="food" width="auto" height="900"/></div>
+<div class="textbox">
+
+<h1 class="title">Nutrition Calculator</h1>
+<p class="light">Calculate daily recommendations and see how foods add to create a balanced diet </p>
+<button onclick="location.href='page2.html'" class="button">Get Started</button>
+</div>
+</body>
