@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>nutricalc</title>
 <head>
 <script type="text/javascript">
 function calcount() { //invalid
@@ -2313,7 +2314,7 @@ function calcount() { //invalid
 .contain {
   border-radius: 5px;
 border: 1px solid #be7575;
-  padding: 15px 5px 45px 35px;
+  padding: 15px 5px 15px 35px;
   width:75%; 
   display: none;
             position: fixed; 
@@ -2398,7 +2399,34 @@ label {
   cursor: pointer;
   float: right;
 }
-
+.buttonnew {
+  background-color: #ffffff;
+  border: 1px solid #be7575;
+  color: #be7575;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 25px;
+  font-family: Helvetica, Arial, sans-serifa;
+  font-weight: normal;
+  cursor: pointer;
+  float: right;
+}
+.buttonnew1 {
+  background-color: #ffffff;
+  border: 1px solid #be7575;
+  color: #be7575;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 25px;
+  font-family: Helvetica, Arial, sans-serifa;
+  font-weight: normal;
+  cursor: pointer;
+  float: right;
+}
 .container {
   border-radius: 5px;
 border: 1px solid #be7575;
@@ -2456,6 +2484,8 @@ border: 1px solid #be7575;
 <br><p> Saturated fats: <p id="fatcount" class="values"> limit 11g </p></p>
 <br><p> Sodium: <p id="sodcount" class="values">limit 1500mg </p></p>
 </div>
+<button onclick="location.href='page4.html'" class="buttonnew">calculate foods</button>
+<button onclick="location.href='index.html'" class="buttonnew1">try again</button>
 </div>
 <div class="image" id="image"><img src="breakfast.png" alt="food" width="auto" height="900"/></div>
 <h1 id="start">Let's get started</h>
